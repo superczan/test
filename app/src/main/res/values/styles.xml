@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="textbox"
+        >
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">Enter Value Here</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:maxWidth">200dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:maxLength">13</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:background">@drawable/shape</item>
+        <item name="android:padding">5dp</item>
+
+    </style>
+    <style name="encloser1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="calculate_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">Calculate</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="table_row_top">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">
+            #FFFFB33F
+        </item>
+    </style>
+
+    <style name="table_row_top_content">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
